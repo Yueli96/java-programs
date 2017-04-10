@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package db_test_2;
 
 import java.sql.*;
@@ -44,16 +39,10 @@ public class Db_test_2 {
                     
                     for (int i = 1; i <= columnsNumber; i++){ 
                         
-                        /*if (i > 1) System.out.print(", ");
+                        if (i > 1) System.out.print(", ");
                         columnName[i-1] = rs.getMetaData().getColumnLabel(i); //to get column label
                         System.out.print(columnName[i-1] + ": ");
-                        System.out.print(rs.getString(i)); //to get column detail*/
-                        
-                        String value = rs.getString("content_no");
-                        if (value=="2")System.out.print(", ");
-                        columnName[i-1] = rs.getMetaData().getColumnLabel(i); //to get column label
-                        System.out.print(columnName[i-1] + ": ");
-                        System.out.print(rs.getString(i));
+                        System.out.print(rs.getString(i)); //to get column detail
                         
                     }
                     
