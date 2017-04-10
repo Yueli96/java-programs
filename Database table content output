@@ -3,10 +3,6 @@ package db_test_2;
 import java.sql.*;
 import org.mariadb.jdbc.*;
 
-/**
- *
- * @author brishty
- */
 public class Db_test_2 {
 
     /**
@@ -28,31 +24,22 @@ public class Db_test_2 {
                 ResultSet rs;
                 rs = st.executeQuery("select * from brishty.testtable");
                 int columnsNumber = rs.getMetaData().getColumnCount();
-                String columnName[] = new String[columnsNumber];
-                
+                String columnName[] = new String[columnsNumber];                
                 System.out.println("Program Started...");
                 
-                while(rs.next()) {
-                   
-                    System.out.println();
-                    
-                    
-                    for (int i = 1; i <= columnsNumber; i++){ 
-                        
+                while(rs.next()) {                   
+                    System.out.println();                                        
+                    for (int i = 1; i <= columnsNumber; i++){                         
                         if (i > 1) System.out.print(", ");
                         columnName[i-1] = rs.getMetaData().getColumnLabel(i); //to get column label
                         System.out.print(columnName[i-1] + ": ");
-                        System.out.print(rs.getString(i)); //to get column detail
-                        
-                    }
-                    
+                        System.out.print(rs.getString(i)); //to get column detail                        
+                    }                    
                 }
                 System.out.println("");
-            }
-            
+            }            
         }  catch(SQLException e) { 
 		System.out.println(e);
 	}
-    }
-    
+    }    
 }
