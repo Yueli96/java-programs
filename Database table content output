@@ -4,10 +4,6 @@ import java.sql.*;
 import org.mariadb.jdbc.*;
 
 public class Db_test_2 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws SQLException {
         try {             
             MariaDbDataSource ds = new MariaDbDataSource();
