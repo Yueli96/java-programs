@@ -7,7 +7,7 @@ XML FILE:
         <dafaults>
         	<SIPServerIP>111.11.11.111</SIPServerIP>
         	<DBServerIP>111.11.11.1</DBServerIP>
-		       <DBUserName>brishty</DBUserName>
+		<DBUserName>brishty</DBUserName>
 	       	<DBPassword>brishty</DBPassword>
 	       	<DBDatabase>brishty</DBDatabase>
 	       	<DBPort>3333</DBPort>
