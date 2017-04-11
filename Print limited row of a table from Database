@@ -1,3 +1,26 @@
+XML FILE:
+
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<config>
+    <mainServerHostname>MainServer</mainServerHostname>
+    <callpushermodule>
+        <dafaults>
+        	<SIPServerIP>111.11.11.111</SIPServerIP>
+        	<DBServerIP>111.11.11.1</DBServerIP>
+		<DBUserName>brishty</DBUserName>
+	       	<DBPassword>brishty</DBPassword>
+	       	<DBDatabase>brishty</DBDatabase>
+	       	<DBPort>3333</DBPort>
+        	<MAX_Instances>10</MAX_Instances>
+        	<MaxLeaseTime>233</MaxLeaseTime>
+        </dafaults>
+    </callpushermodule>
+</config>
+
+-------------------------------------------------------------------------------------------------
+
+JAVA PROGRAM:
+
 package xml_to_server_connection;
 
 import javax.xml.parsers.DocumentBuilderFactory;
