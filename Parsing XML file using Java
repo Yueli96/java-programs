@@ -13,15 +13,15 @@ XML FILE:
 
           <voice>
             <ac1>
-              <ServerAddress>172.16.11.133</ServerAddress>
-              <SIPUser1>172.16.11.133</SIPUser1>
-              <SIPpass1>172.16.11.133</SIPpass1> 
+              <ServerAddress>111.11.11.111</ServerAddress>
+              <SIPUser1>111.11.11.111</SIPUser1>
+              <SIPpass1>111.11.11.111</SIPpass1> 
             </ac1>
           </voice>
 
           <DB>
-            <Address>172.16.11.6</Address>
-            <Port>3306</Port>
+            <Address>111.11.11.1</Address>
+            <Port>3333</Port>
             <user>apprepaid</user>
             <pass>apprepaid</pass>
             <DBName>aponjon_pepaid_service</DBName>
