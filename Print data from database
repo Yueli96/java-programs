@@ -1,15 +1,7 @@
 import java.sql.*;
 import org.mariadb.jdbc.*;
-/**
- *
- * @author brishty
- */
-public class pollob {
 
-    /**
-     * @param args the command line arguments
-     * @throws java.sql.SQLException
-     */
+public class data {
     public static void main(String[] args) throws SQLException {
         try {              
             MariaDbDataSource ds = new MariaDbDataSource();
@@ -26,19 +18,15 @@ public class pollob {
                 rs = st.executeQuery("select * from dialect");
                 int columnsNumber = rs.getMetaData().getColumnCount();
                 System.out.println("Program Started...");
-                while(rs.next()) {
-                   
-                    System.out.println();
-                    
+                while(rs.next()) {                   
+                    System.out.println();                    
                     for (int i = 1; i <= columnsNumber; i++){ 
                         if (i > 1) System.out.print(", ");
-                        System.out.print(rs.getString(i));
-                        
+                        System.out.print(rs.getString(i));                        
                     }
                 }
                 System.out.println("");
-            }
-            
+            }            
         }  catch(SQLException e) { 
 		System.out.println(e);
 	}
