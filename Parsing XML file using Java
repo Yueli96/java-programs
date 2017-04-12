@@ -168,3 +168,38 @@ public class ParsingXMLFile {
         } 
     }
 }
+
+----------------------------------------------------------------------
+OUTPUT:
+
+run:
+Root element :config
+----------------------------
+
+Current Element :dafaults
+sipPerInstance : No
+startTime : 08:00:00
+endTime : 11:59:59
+MAX_Instances : 10
+MaxLeaseTime : 210
+Root element :config
+----------------------------
+
+Current Element :voice
+Root element :config
+----------------------------
+
+Current Element :ac1
+ServerAddress : 111.11.11.111
+SIPUser1 : 111.11.11.111
+SIPpass1 : 111.11.11.111
+Root element :config
+----------------------------
+
+Current Element :DB
+Address : 111.11.11.1
+Port : 3333
+user : apprepaid
+pass : apprepaid
+DBName : aponjon_pepaid_service
+BUILD SUCCESSFUL (total time: 0 seconds)
