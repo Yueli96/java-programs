@@ -80,3 +80,5 @@ PS: Since some info here are confidential, I changed some numbers/ inputs here.
 Sites I followed:
 https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html
 http://www.binarytides.com/java-socket-programming-tutorial/
+Google search: // Follow the HTTP protocol of GET <path> HTTP/1.0 followed by an empty line:    
+               out.println("GET " +  + " HTTP/1.0" );
