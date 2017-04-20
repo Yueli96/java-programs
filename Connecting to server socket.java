@@ -76,3 +76,7 @@ Connected
 BUILD SUCCESSFUL (total time: 15 seconds)
 
 PS: Since some info here are confidential, I changed some numbers/ inputs here.
+    
+Sites I followed:
+https://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html
+http://www.binarytides.com/java-socket-programming-tutorial/
