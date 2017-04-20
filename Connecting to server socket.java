@@ -10,17 +10,15 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class SocketConnection {
-
-    public static void main(String[] args) throws IOException 
-    {
+    
+    public static void main(String[] args) throws IOException {
         //Socket s = new Socket();
         String host = "111.11.11.111:8000/ari/events?api_key=arman:bvvv";
         String IP = "111.11.11.111";
         int port = 8000;
-        String path = "/ari/events?api_key=arman:bvvv";
-         
-        try
-        {
+        String path = "/ari/events?api_key=arman:bvvv";        
+        
+        try {
             // Create input and output streams to read from and write to the server
             try (Socket socket = new Socket(IP, port);
                     
@@ -30,7 +28,6 @@ public class SocketConnection {
                 
                 // Follow the HTTP protocol of GET <path> HTTP/1.0 followed by an empty line
                 out.println("GET " + path + " HTTP/1.0");
-
                 out.println();
                 out.flush();
                 
@@ -43,17 +40,17 @@ public class SocketConnection {
                 }               
             }        
         } 
+        
         //Host not found
-        catch (UnknownHostException e) 
-        {
+        catch (UnknownHostException e) {
             System.err.println("Can't connect : " + host);
             System.exit(1);            
         }       
         System.out.println("#########\nConnected\n#########");
     }
 } 
-
 ........................................................................................
+
 The output I got:
 
 run:
