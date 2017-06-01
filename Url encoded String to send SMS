@@ -5,7 +5,7 @@ XML File:
 	<IP>11.111.11.11</IP>
 	<Port>11111</Port>
 	<User>xuser</User>
-	<Password>bridge</Password>
+	<Password>bbbbb</Password>
 	<dlrIP>11.111.11.11</dlrIP>
 	<dlrPort>55</dlrPort>
 	<dlrMask>22</dlrMask>
