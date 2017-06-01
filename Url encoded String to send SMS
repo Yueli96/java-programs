@@ -4,7 +4,7 @@ XML File:
 <SMSGW>
 	<IP>11.111.11.11</IP>
 	<Port>11111</Port>
-	<User>dnetuser</User>
+	<User>xuser</User>
 	<Password>bridge</Password>
 	<dlrIP>11.111.11.11</dlrIP>
 	<dlrPort>55</dlrPort>
