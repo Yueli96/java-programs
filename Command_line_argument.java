@@ -13,4 +13,20 @@ public class Command_line_argument {
 ######
 Output:
 Total = 300
+	
+----------------------------------------------------------------------------------------------------------------------
+public class Command_line_argument {
+	public static void main (String[]args) {
+		int sum = 0;
+		for(int i = 0; i<args.length; i++) {
+			sum += Integer.parseInt(args[i]);
+		}
+		System.out.println("Total = " + sum);
+	}
+}
+
+//---------------In command prompt-----------------
+//javac test.java
+//java test 100 200 4 5 8 (unlimited)
+//Total = 317
 
