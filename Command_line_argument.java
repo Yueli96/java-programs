@@ -28,5 +28,8 @@ public class Command_line_argument {
 //---------------In command prompt-----------------
 //javac test.java
 //java test 100 200 4 5 8 (unlimited)
-//Total = 317
+
+######
+Output:
+Total = 317
 
