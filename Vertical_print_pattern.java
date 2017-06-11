@@ -12,3 +12,16 @@ public class Vertical_print_pattern{
         }               
     }   
 }
+
+######
+Input:
+Dhaka
+
+######
+Output:
+D
+h
+a
+k
+a
+BUILD SUCCESSFUL (total time: 16 seconds)
