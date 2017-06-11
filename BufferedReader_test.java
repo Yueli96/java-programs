@@ -22,3 +22,12 @@ public class BufferedReader_test {
         }
     }   
 }
+
+######
+Input:
+2
+
+######
+Output:
+2 is a prime number
+BUILD SUCCESSFUL (total time: 10 seconds)
