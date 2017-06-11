@@ -14,7 +14,7 @@ public class BufferedReader_test {
             if(i == a){
                 System.out.println(a + " is a prime number");
             } else {
-                if (a % 2 == 0) {
+                if (a % i == 0) {
                     System.out.println(a + " is not a prime number");
                     break;
                 }
@@ -25,9 +25,10 @@ public class BufferedReader_test {
 
 ######
 Input:
-2
+77
 
 ######
 Output:
-2 is a prime number
-BUILD SUCCESSFUL (total time: 10 seconds)
+77 is not a prime number
+BUILD SUCCESSFUL (total time: 4 seconds)
+
