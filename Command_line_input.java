@@ -1,4 +1,4 @@
-public class Command_line_argument {
+public class Command_line_input {
 	public static void main (String[]args) {
 		int x = Integer.parseInt(args[0]);
 		int y = Integer.parseInt(args[1]);
