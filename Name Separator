@@ -4,7 +4,7 @@ package name.separator;
 
 import java.util.Scanner;
 
-public class NameSeparator {-
+public class NameSeparator {
 
     public static void main(String[] args) {
 
